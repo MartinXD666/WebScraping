@@ -1,0 +1,18 @@
+Resumen Scraping:
+
+El programa se encargara de extraer datos especificos de las paginas web para luego mostrar
+la informacion en una hoja de Excel y enviar el archivo xlsx por correo.
+ 
+Esto se organiza en 3 modulos de scripts de python:
+
+El primer modulo se encargara de descargar las paginas desde una url, utilizando la libreria 'requests'.
+Luego para procesar la informacion del contenido HTML de la web, se utiliza la libreria 'bs4'. 
+Esta libreria desmenuza el contenido HTML de la pagina para que asi sea mas facil la extraccion de la informacion buscada
+y asi luego esa informacion almacenarla en una estructura de datos.
+La libreria se dota de varias funciones, lo que la hace una herramienta muy completa para el web Scraping.
+
+El segundo modulo es el que se encargara de volcar a una hoja de Excel toda la informacion obtenida, 
+utilizando la libreria 'openpyxl'.
+
+Por ultimo, el tercer modulo es el que se va a encargar de enviar el correo electrinico, utilizando
+la libreria 'email' y 'smtplib'.
