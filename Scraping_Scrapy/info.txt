@@ -1,0 +1,1 @@
+run in terminal: scrapy runspider scraping_Scrapy.py -o salida.csv csv -t
